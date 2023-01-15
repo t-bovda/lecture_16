@@ -1,0 +1,52 @@
+*{margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+$main_color: #46b1de;
+
+$main_text : 'Roboto', sans-serif;
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.container{
+  max-width: 1180px;
+  width: 98%;
+  margin: 0 auto;
+}
+@media(max-width: 992px){
+  .container{
+      max-width: 992px;
+      width: 98%;
+  } 
+}
+@media(max-width: 480px){
+  .container{
+      max-width: 480px;
+      width: 98%;
+  } 
+}
+
+.container__2{
+  max-width: 980px;
+  width: 98%;
+  margin: 0 auto;
+}
+@media(max-width: 992px){
+  .container__2{
+      max-width: 890px;
+      width: 98%;
+  } 
+}
+@media(max-width: 480px){
+  .container__2{
+      max-width: 480px;
+      width: 98%;
+  } 
+}

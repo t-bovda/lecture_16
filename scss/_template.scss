@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 34px;
+    text-align: center;
+}
+.sectionMargin{
+    margin-top: 90px;
+
+    @media(max-width: 768px){
+        margin-top: 30px;   
+    }
+}
+
+.ua:hover, .en:hover{
+    color: white;
+}
